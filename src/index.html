@@ -6,6 +6,38 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="font-bold text-3xl underline bg-blue-500 ">hello</h1>
+    <h1 class="font-bold text-3xl underline bg-blue-500">hello</h1>
+    <div class="m-4 grid gap-2 sm:grid-cols-2 grid-cols-1">
+      <div class="min-h-[50px] rounded-md bg-orange-400">it great</div>
+      <div class="min-h-[50px] rounded-md bg-green-400">its great</div>
+    </div>
+    <div class="m-4 grid gap-2 sm:grid-cols-3 grid-cols-1">
+      <div class="min-h-[50px] rounded-md bg-orange-400">it great</div>
+      <div class="min-h-[50px] rounded-md bg-green-400">its great</div>
+      <div class="min-h-[50px] rounded-md bg-red-400">its great</div>
+    </div>
+    <div class="m-4 grid gap-2 sm:grid-cols-12">
+      <div class="min-h-[50px] rounded-md bg-orange-400 sm:col-span-4">
+        it great
+      </div>
+      <div class="min-h-[50px] rounded-md bg-green-400 sm:col-span-8">
+        its great
+      </div>
+    </div>
+    <div class="m-4 grid gap-2 sm:grid-cols-12">
+      <div
+        class="hidden min-h-[50px] rounded-md bg-orange-400 shadow-xl sm:col-span-2 sm:block"
+      >
+        it great
+      </div>
+      <div class="min-h-[50px] rounded-md bg-green-400 shadow-xl sm:col-span-6">
+        its great
+      </div>
+      <div
+        class="hidden min-h-[50px] rounded-md bg-red-400 shadow-xl sm:col-span-4 sm:block"
+      >
+        its great
+      </div>
+    </div>
   </body>
 </html>
